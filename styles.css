@@ -1,33 +1,56 @@
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
 body {
     font-family: "montserrat";
     font-weight: 900;
+    text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "montserrat";
     font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
-h2 {
-    font-family: "montserrat";
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
+p {
+    font-weight: 300;
+    color: #8f8f8f;
 }
 
 .container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.white-section {
+    background-color: #ffff;
+}
+
+/* Title */ 
+#title .container-fluid {
     padding: 3% 15%;
+    text-align: left;
 }
 
 #title i {
     margin: 5px;
+}
+
+
+/* Headings */
+
+.big-title {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* Navigation */
@@ -67,9 +90,7 @@ h2 {
 
 /* Features */
 
-h3 {
-    font-family: "montserrat";
-    font-weight: 900;
+.feature-title{
     font-size: 1.5rem;
 }
 
@@ -82,24 +103,20 @@ h3 {
     color: #ff4c68;
 }
 
-p {
-    font-weight: 300;
-    color: #8f8f8f;
-}
 
 .features {
-    text-align: center;
-    padding: 7% 15%;
-    background-color: #ffff;
     position: relative;
     z-index: 1;
 }
 
 /* Testimonaials */
 
-#testimonials {
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
-    text-align: center;
+#testimonials {
     background-color: #ef8172;
     color: white;
 }
@@ -114,7 +131,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -122,26 +138,24 @@ p {
     margin: 20px 20px 50px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 
 /* Pricing */
 
 #pricing {
     padding: 100px;
-    text-align: center
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 @media screen and (max-width:1028px) {
 
-    #title {
-        text-align: center;
-    }
     .Title-Image {
         position: static;
         transform: rotate(0);
@@ -151,10 +165,6 @@ p {
 
 /* Call to Action */
 
-#cta{
-    text-align: center;
-    background-color: #ff4c68;
-}
 
 .h3cta {
         font-family: "montserrat";
@@ -162,17 +172,10 @@ p {
         font-size: 3rem;
         line-height: 1.5;
         color: white;
-        text-align: center;
         padding-top: 7%;
     }
 
 /* Footer */
-
-#footer {
-    background-color: #ffff;
-    text-align: center;
-    padding: 7%;
-}
 
 #footer i {
     display: inline-block;
